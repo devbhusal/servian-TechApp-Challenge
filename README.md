@@ -24,7 +24,7 @@
 
 <------------------------------------------------------------------------------------------------------------------------>
 
-<h2> STEPS: <h2>
+<h2> STEPS: </h2>
 
  <p>Clone this repo using command <code>  git clone https://github.com/devbhusal/servian-TechApp-Challenge.git </code></p>
  <p>Initialize terraform          <code>  terraform init</code></p>
