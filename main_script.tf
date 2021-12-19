@@ -176,6 +176,8 @@ resource "aws_db_instance" "TechChallengeApp_DB" {
   storage_encrypted     = false
 }
 
+
+# Using EC2 USERDATA to do auto deploy and build stuff 
 # change USERDATA varible value after grabbing RDS endpoint info
 data "template_file" "user_data" {
   template = "${file("${path.module}/user_data.tpl")}"

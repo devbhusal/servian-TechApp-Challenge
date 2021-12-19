@@ -34,7 +34,7 @@
  <p>Apply the plan using           <code> terraform apply -var-file="user.tfvars" </code></p>
  
  <p>Wait for atleast 3 mins after provision finished, before typing displayed public IP address in your browser.</p>
- 
+ <h3> everything is Automatic. This will provision all needed  aws resources and also build and start webserver using cloud init </h3>
 
  <p>Destroy the resources          <code> terraform destroy -var-file="user.tfvars" </code></p>
 
