@@ -27,6 +27,7 @@
 <h2> STEPS: </h2>
 
  <p>Clone this repo using command <code>  git clone https://github.com/devbhusal/servian-TechApp-Challenge.git </code></p>
+ <p> Go to project folder         <code>  cd servian-TechApp-Challenge </code></p>
  <p>Initialize terraform          <code>  terraform init</code></p>
  <p>Change database and aws setting in terraform.tfvars file </code></p>
  <p>Generate Key pair using        <code> ssh-keygen -f mykey-pair  </code></p>
