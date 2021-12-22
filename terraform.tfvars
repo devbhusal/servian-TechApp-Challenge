@@ -1,6 +1,6 @@
 database_name = "postgresDB" // database name
 database_user = "postgresUSER" //database username
-shared_credentials_file = "C:/Users/bhusa/.aws" //Access key and Secret key file location
+shared_credentials_file = "~/.aws" //Access key and Secret key file location
 region  = "ap-southeast-2"  //sydney region
 AZ1 = "ap-southeast-2a"  // avaibility zone
 AZ2 = "ap-southeast-2b"
